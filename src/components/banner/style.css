@@ -1,0 +1,22 @@
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../assets/img/bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2 {
+    color: #fff;
+    font-size: 90px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1em;
+}
+
+.banner h2 span {
+    color: #4978ff;
+}
