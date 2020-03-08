@@ -5,6 +5,7 @@ import Banner from '../../components/banner/Banner';
 import About from '../../components/about/About';
 import Service from '../../components/service/Service';
 import Stats from '../../components/stats/Stats';
+import Portfolio from '../../components/portfolio/Portfolio'
 
 
 class Home extends Component {
@@ -17,6 +18,7 @@ class Home extends Component {
                 <About></About>
                 <Service></Service>
                 <Stats></Stats>
+                <Portfolio></Portfolio>
             </>
         );
     }
