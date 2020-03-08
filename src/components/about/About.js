@@ -16,7 +16,7 @@ class About extends Component {
                             essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                         </p>
-                        <a href="#" className="bnt">Read Our Story</a>
+                        <a href="#" className="btn">Read Our Story</a>
                     </div>
                 </div>
             </section>
