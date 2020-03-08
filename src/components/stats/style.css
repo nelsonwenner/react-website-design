@@ -32,13 +32,13 @@ p {
     letter-spacing: 1px;
 }
 
-.stats {
+#stats {
     background: #000;
     padding-top: 250px;
     margin-top: -250px;
 }
 
-.stats h3, .stats p {
+#stats h3, #stats p {
     color: #fff;
 }
 

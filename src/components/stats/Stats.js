@@ -6,7 +6,7 @@ class Stats extends Component {
 
     render() {
         return (
-            <section className="sec stats" id="about">
+            <section className="sec" id="stats">
                 <div className="content">
                     <div className="mxw800">
                         <h3>Our Achievements</h3>
