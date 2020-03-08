@@ -32,47 +32,45 @@ p {
     letter-spacing: 1px;
 }
 
-.services {
+.workBox {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 30px;
     max-width: 100%;
     margin-top: 40px;
 }
 
-.services .box {
-    width: 300px;
+.workBox .brand {
+    background: #4978ff;
+    min-height: 400px;
+    width: 320px;
     margin: 0 auto;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.services .box .iconBx {
-    margin-top: 25px;
+.workBox .brand:hover { 
+    background: #000;
 }
 
-.services .box .iconBx img {
-    max-width: 70px;
-    margin-bottom: 15px;
-}
-
-.services .box h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
+.workBox .brand a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
-    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.workBox .brand:hover a {
+    color: rgba(255, 255, 255, 1);
 }
 
 /* Media Query */
 @media (max-width: 992px) {
-    
+
     .sec {
         padding: 100px 50px 50px 50px;
-    }
-
-    .services .box {
-        width: 100%;
     }
 }

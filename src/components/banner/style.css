@@ -20,3 +20,29 @@
 .banner h2 span {
     color: #4978ff;
 }
+
+.banner {
+    background-position: center;
+}
+
+.banner h2 {
+    font-size: 60px;
+    padding: 0 50px;
+}
+
+/* Media Query */
+@media (max-width: 992px) {
+
+    .banner {
+        background-position: center;
+    }
+
+    .banner h2 {
+        font-size: 60px;
+        padding: 0 50px;
+    }
+    
+    .sec {
+        padding: 100px 50px 50px 50px;
+    }
+}
