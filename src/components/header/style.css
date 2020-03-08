@@ -47,7 +47,7 @@ ul li a {
 .sticky {
     padding: 5px 100px;
     background: #fff;
-    border-bottom: 1px solid(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
 .sticky .logo, .sticky ul li a {
