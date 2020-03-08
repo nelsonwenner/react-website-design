@@ -7,6 +7,7 @@ import Service from '../../components/service/Service';
 import Stats from '../../components/stats/Stats';
 import Portfolio from '../../components/portfolio/Portfolio';
 import Team from '../../components/team/Team';
+import Contact from '../../components/contact/Contact';
 
 
 class Home extends Component {
@@ -21,6 +22,7 @@ class Home extends Component {
                 <Stats></Stats>
                 <Portfolio></Portfolio>
                 <Team></Team>
+                <Contact></Contact>
             </>
         );
     }

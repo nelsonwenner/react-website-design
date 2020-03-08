@@ -63,3 +63,15 @@ p {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+/* Media Query */
+@media (max-width: 992px) {
+
+    .sec {
+        padding: 100px 50px 50px 50px;
+    }
+
+    #stats {
+        padding-top: 250px;
+    }
+}

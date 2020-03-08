@@ -99,3 +99,15 @@ p {
     font-size: 12px;
     font-weight: 300;
 }
+
+/* Media Query */
+@media (max-width: 992px) {
+    
+    .sec {
+        padding: 100px 50px 50px 50px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+}

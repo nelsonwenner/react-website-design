@@ -64,3 +64,15 @@ p {
     text-transform: uppercase;
     font-weight: 700;
 }
+
+/* Media Query */
+@media (max-width: 992px) {
+    
+    .sec {
+        padding: 100px 50px 50px 50px;
+    }
+
+    .services .box {
+        width: 100%;
+    }
+}
